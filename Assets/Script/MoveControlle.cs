@@ -31,7 +31,7 @@ public class MoveControlle : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Coletavel"))
         {
-
+            other.GetComponent<Erva>().PegarNome("Maconhildo");
         }
     }
 }
